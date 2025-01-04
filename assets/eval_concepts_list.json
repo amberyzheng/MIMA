@@ -1,0 +1,78 @@
+{
+    "pet_cat1+decoritems_woodenpot":
+    [
+        {   
+            "instance_prompt": "A photo of <newc> cat.",
+            "token": "<newc> cat",
+            "validation_prompt": "A <newc> cat in <newp> woodenpot.",
+            "class_prompt": "cat",
+            "instance_data_dir": "./data/benchmark_dataset/pet_cat1",
+            "class_data_dir": "./regularization/pet_cat"    
+        },
+        {   
+            "instance_prompt": "A photo of <newp> woodenpot.",
+            "token": "<newp> woodenpot",
+            "validation_prompt": "A <newc> cat in <newp> woodenpot.",
+            "class_prompt": "pot",
+            "instance_data_dir": "./data/benchmark_dataset/decoritems_woodenpot",
+            "class_data_dir": "./regularization/woodenpot"
+        }
+    ],
+    "flower_1+decoritems_woodenpot":
+    [
+        {   
+            "instance_prompt": "A photo of <newf> flower.",
+            "token": "<newf> flower",
+            "validation_prompt": "A <newf> flower in the <newp> woodenpot on the table.",
+            "class_prompt": "flower",
+            "instance_data_dir": "./data/benchmark_dataset/flower_1",
+            "class_data_dir": "./regularization/things_flower"
+        },
+        {   
+            "instance_prompt": "A photo of <newp> woodenpot.",
+            "token": "<newp> woodenpot",
+            "validation_prompt": "A <newf> flower in the <newp> woodenpot on the table.",
+            "class_prompt": "pot",
+            "instance_data_dir": "./data/benchmark_dataset/decoritems_woodenpot",
+            "class_data_dir": "./regularization/woodenpot"
+        }
+    ],
+    "pet_cat1+furniture_sofa1":
+    [
+        {   
+            "instance_prompt": "A photo of <newc> cat.",
+            "token": "<newc> cat",
+            "validation_prompt": "A <newc> cat sleeping on a <news> sofa.",
+            "class_prompt": "cat",
+            "instance_data_dir": "./data/benchmark_dataset/pet_cat1",
+            "class_data_dir": "./regularization/pet_cat"    
+        },
+        {   
+            "instance_prompt": "A photo of <news>.",
+            "token": "<news> sofa",
+            "validation_prompt": "A <newc> cat sleeping on a <news> sofa.",
+            "class_prompt": "sofa",
+            "instance_data_dir": "./data/benchmark_dataset/furniture_sofa1",
+            "class_data_dir": "./regularization/furniture_sofa"
+        }
+    ],
+    "pet_cat1+flower_1":
+    [
+        {   
+            "instance_prompt": "A photo of <newc> cat.",
+            "token": "<newc> cat",
+            "validation_prompt": "A <newc> cat with a <newf> flower.",
+            "class_prompt": "cat",
+            "instance_data_dir": "./data/benchmark_dataset/pet_cat1",
+            "class_data_dir": "./regularization/pet_cat"    
+        },
+        {   
+            "instance_prompt": "A photo of <newf> flower.",
+            "token": "<newf> flower",
+            "validation_prompt": "A <newc> cat with a <newf> flower.",
+            "class_prompt": "flower",
+            "instance_data_dir": "./data/benchmark_dataset/flower_1",
+            "class_data_dir": "./regularization/things_flower"
+        }
+    ]
+}

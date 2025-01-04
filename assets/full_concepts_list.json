@@ -1,0 +1,16 @@
+[
+    {
+        "instance_prompt": "photo of a <new1> castle",
+        "class_prompt": "castle",
+        "instance_data_dir": "./data/scene_castle",
+        "class_data_dir": "./regularization/scene_castle",
+        "prompt_filename": "data/prompts/castle.txt"
+    },
+    {
+        "instance_prompt": "photo of a <new1> car",
+        "class_prompt": "car",
+        "instance_data_dir": "./data/transport_car",
+        "class_data_dir": "./regularization/car",
+        "prompt_filename": "data/prompts/transport.txt"
+    }
+]

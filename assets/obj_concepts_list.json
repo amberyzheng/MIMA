@@ -1,0 +1,14 @@
+[
+    {
+        "instance_prompt": "photo of a church",
+        "class_prompt": "object",
+        "instance_data_dir": "./data/church",
+        "class_data_dir": "./regularization/object"
+    },
+    {
+        "instance_prompt": "photo of a parachute",
+        "class_prompt": "object",
+        "instance_data_dir": "./data/parachute",
+        "class_data_dir": "./regularization/object"
+    }
+]

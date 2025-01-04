@@ -1,0 +1,14 @@
+[
+    {
+        "instance_prompt": "An artwork of Van Gogh",
+        "class_prompt": "artwork",
+        "instance_data_dir": "./data/Van_Gogh",
+        "class_data_dir": "./regularization/artwork"
+    },
+    {
+        "instance_prompt": "An artwork of Claude Monet",
+        "class_prompt": "artwork",
+        "instance_data_dir": "./data/Claude_Monet",
+        "class_data_dir": "./regularization/artwork"
+    }
+]
