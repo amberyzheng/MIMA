@@ -1,7 +1,3 @@
-# Copyright 2022 Adobe Research. All rights reserved.
-# To view a copy of the license, visit LICENSE.md.
-
-
 import sys
 import os
 import argparse
