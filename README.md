@@ -69,7 +69,7 @@ If you find our work or any of our materials useful, please cite our paper:
 @inproceedings{zheng2025multi,
   title={Multi-concept Model Immunization through Differentiable Model Merging},
   author={Zheng, Amber Yijia and Yeh, Raymond A},
-  booktitle={In Proc. AAAI},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2025}
 }
 ```
